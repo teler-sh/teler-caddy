@@ -176,23 +176,10 @@ The same configuration can be expressed in Caddy's native JSON structure as foll
                     {
                       "handle": [
                         {
-                          "customs": null,
-                          "customs_from_file": "",
-                          "development": false,
-                          "excludes": null,
-                          "falcosidekick_url": "",
-                          "handler": "waf",
-                          "in_memory": false,
-                          "log_file": "",
-                          "no_stderr": false,
-                          "no_update_check": false,
-                          "response": {
-                            "html": "",
-                            "html_file": "",
-                            "status": 0
-                          },
-                          "verbose": false,
-                          "whitelists": null
+                          "format": "",
+                          "handler": "teler",
+                          "inline": "",
+                          "load_from": ""
                         }
                       ]
                     }
