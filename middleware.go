@@ -8,6 +8,9 @@ import (
 	"github.com/teler-sh/teler-waf"
 )
 
+// Middleware integrates the robust security features of teler WAF into the
+// Caddy web server, ensuring your web servers remain secure and resilient
+// against web-based attacks.
 type Middleware struct {
 	teler.Options
 
