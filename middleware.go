@@ -12,12 +12,19 @@ import (
 // Caddy web server, ensuring your web servers remain secure and resilient
 // against web-based attacks.
 type Middleware struct {
-	teler.Options
+	// Options holds the settings for teler WAF.
+	teler.Options `json:"-"`
 
-	LoadFrom string `json:"-"`
-	Format   string `json:"-"`
-	Inline   string `json:"-"`
+	// Format is the type of configuration file, either "json" or "yaml".
+	Format string `json:"format"`
 
+	// LoadFrom is the path to the configuration file.
+	LoadFrom string `json:"load_from"`
+
+	// Inline is the configuration options written directly as a string.
+	Inline string `json:"inline"`
+
+	// t is an instance of teler WAF.
 	t *teler.Teler
 }
 

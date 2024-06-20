@@ -7,6 +7,8 @@ import (
 	"github.com/teler-sh/teler-waf/option"
 )
 
+// Loader is a function type that loads teler WAF options from a file path or
+// string.
 type Loader func(string) (teler.Options, error)
 
 // getTelerOptions based on the Caddyfile definition.
