@@ -16,12 +16,12 @@ func getTelerOptions(m *Middleware) (teler.Options, error) {
 
 	if m.LoadFrom != "" {
 		switch m.Format {
-		case "json":
+		case json:
 			loader = option.LoadFromJSONFile
-		case "yaml":
+		case yaml:
 			loader = option.LoadFromYAMLFile
 		default:
-			return opt, fmt.Errorf("unsupported %q format", m.Format)
+			return opt, fmt.Errorf(errUnsupportedFormat, m.Format)
 		}
 
 		return loader(m.LoadFrom)
@@ -29,12 +29,12 @@ func getTelerOptions(m *Middleware) (teler.Options, error) {
 
 	if m.Inline != "" {
 		switch m.Format {
-		case "json":
+		case json:
 			loader = option.LoadFromJSONString
-		case "yaml":
+		case yaml:
 			loader = option.LoadFromYAMLString
 		default:
-			return opt, fmt.Errorf("unsupported format: %s", m.Format)
+			return opt, fmt.Errorf(errUnsupportedFormat, m.Format)
 		}
 
 		return loader(m.Inline)
