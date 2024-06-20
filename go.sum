@@ -505,8 +505,8 @@ github.com/gorilla/css v1.0.0/go.mod h1:Dn721qIggHpt4+EFCcTLTU/vk5ySda2ReITrtgBl
 github.com/grpc-ecosystem/grpc-gateway v1.16.0/go.mod h1:BDjrQk3hbvj6Nolgz8mAMFbcEtjT1g+wF4CSlocrBnw=
 github.com/hashicorp/go-cleanhttp v0.5.2 h1:035FKYIWjmULyFRBKPs8TBQoi0x6d9G4xc9neXJWAZQ=
 github.com/hashicorp/go-cleanhttp v0.5.2/go.mod h1:kO/YDlP8L1346E6Sodw+PrpBSV4/SoxCXGY6BqNFT48=
-github.com/hashicorp/go-getter v1.7.2 h1:uJDtyXwEfalmp1PqdxuhZqrNkUyClZAhVeZYTArbqkg=
-github.com/hashicorp/go-getter v1.7.2/go.mod h1:W7TalhMmbPmsSMdNjD0ZskARur/9GJ17cfHTRtXV744=
+github.com/hashicorp/go-getter v1.7.4 h1:3yQjWuxICvSpYwqSayAdKRFcvBl1y/vogCxczWSmix0=
+github.com/hashicorp/go-getter v1.7.4/go.mod h1:W7TalhMmbPmsSMdNjD0ZskARur/9GJ17cfHTRtXV744=
 github.com/hashicorp/go-safetemp v1.0.0 h1:2HR189eFNrjHQyENnQMMpCiBAsRxzbTMIgBhEyExpmo=
 github.com/hashicorp/go-safetemp v1.0.0/go.mod h1:oaerMy3BhqiTbVye6QuFhFtIceqFoDHxNAB65b+Rj1I=
 github.com/hashicorp/go-version v1.6.0 h1:feTTfFNnjP967rlCxM/I9g701jU+RN74YKx2mOkIeek=
@@ -780,8 +780,6 @@ github.com/tailscale/tscert v0.0.0-20240517230440-bbccfbf48933 h1:pV0H+XIvFoP7pl
 github.com/tailscale/tscert v0.0.0-20240517230440-bbccfbf48933/go.mod h1:kNGUQ3VESx3VZwRwA9MSCUegIl6+saPL8Noq82ozCaU=
 github.com/teler-sh/dsl v1.0.2 h1:TZLxLvCL1q8M7IOE0A+2zWuAcp6niJ+56My0iBvl+3o=
 github.com/teler-sh/dsl v1.0.2/go.mod h1:dCDAO75SGg1pC1qsX5Y0mNsfswmfRcEJTK86ldi7DP0=
-github.com/teler-sh/teler-waf v1.4.4 h1:dJDhGR4tNHygVYF51YTeMJ65MH1QtqYNuKnShgBXDPk=
-github.com/teler-sh/teler-waf v1.4.4/go.mod h1:LSzneY9EUXnHv77yAUAn57112PNwgEBfb+blyFYMkdo=
 github.com/teler-sh/teler-waf v1.5.0 h1:Y7dFjY+8oVI135F1YR9hbjfDLMoS/X+BGMqPTDjMbyk=
 github.com/teler-sh/teler-waf v1.5.0/go.mod h1:WI+l9COCRsAFfpQk3iBMEB1Do2uzaWjS8BcCO2GpBds=
 github.com/twharmon/gouid v0.6.0 h1:l5Tcn8zXwVtFlbQWPfh6BrltSjcOXXsbT3Tm4NdYgj8=
