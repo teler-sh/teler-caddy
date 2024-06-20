@@ -1,2 +1,2 @@
-./Caddyfile
-./caddy.{json,yaml}
+Caddyfile
+caddy.{json,yaml}
