@@ -11,6 +11,7 @@
   * [Examples](#examples)
 * [Development](#development)
 * [JSON structure](#json-structure)
+* [Demo](#demo)
 * [Community](#community)
 * [License](#license)
 
