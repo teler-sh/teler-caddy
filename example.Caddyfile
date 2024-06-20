@@ -1,0 +1,7 @@
+:8080 {
+	route {
+		teler_waf
+	}
+
+	reverse_proxy localhost:8081
+}

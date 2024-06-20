@@ -1,0 +1,34 @@
+{
+	debug
+	log {
+		format console
+		level info
+	}
+}
+
+:8080 {
+	route {
+		teler_waf {
+			inline YAML <<--
+				excludes: []
+				whitelists:
+				  - request.IP in ["::1"]
+				customs: []
+				customs_from_file: ""
+				response:
+				    status: 0
+				    html: ""
+				    html_file: ""
+				log_file: ""
+				no_stderr: false
+				no_update_check: false
+				development: false
+				in_memory: false
+				falcosidekick_url: ""
+				verbose: false
+				--
+		}
+	}
+
+	reverse_proxy localhost:8081
+}
