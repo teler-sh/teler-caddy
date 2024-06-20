@@ -2,6 +2,12 @@
 
 **teler-caddy** integrates the robust security features of teler WAF into the Caddy web server. With the teler Caddy module, you can leverage these comprehensive security measures to ensure your web servers remain secure and resilient against OWASP Top 10 threats, known vulnerabilities, malicious actors, botnets, unwanted crawlers, and brute force attacks.
 
+**See also:**
+
+* [teler-sh/teler](https://github.com/teler-sh/teler): Real-time HTTP Intrusion Detection.
+* [teler-sh/teler-waf](https://github.com/teler-sh/teler-waf): Go HTTP middleware that provides teler IDS functionality.
+* [teler-sh/teler-proxy](https://github.com/teler-sh/teler-proxy): teler Proxy enabling seamless integration with teler WAF.
+
 ---
 
 * [Usage](#usage)
