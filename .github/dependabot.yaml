@@ -6,3 +6,6 @@ updates:
       interval: "daily"
     labels:
       - "dependencies"
+    groups:
+      modules:
+        patterns: ["*"]
